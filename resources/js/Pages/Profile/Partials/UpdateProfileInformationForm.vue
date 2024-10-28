@@ -12,6 +12,7 @@ defineProps<{
 
 const user = usePage().props.auth.user;
 
+
 const form = useForm({
     name: user.name,
     email: user.email,
@@ -20,6 +21,7 @@ const form = useForm({
 
 <template>
     <section>
+   
         <header>
   
             <h2 class="text-lg font-medium text-gray-900">
